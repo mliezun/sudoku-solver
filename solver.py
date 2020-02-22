@@ -62,6 +62,7 @@ class SudokuSolver:
         exhaust = False
         while not exhaust:
             exhaust = True
+            board_map = {}
             for i in range(9):
                 for j in range(9):
                     cell = b[i][j]
